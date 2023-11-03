@@ -3020,6 +3020,21 @@ html.dark-mode .footer-cta-title {
     background: none;
 }
 
+.ham-box {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ham-logo {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.ham-description {
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
 /*
 
 Hey! You reached the end.

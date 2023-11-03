@@ -23,11 +23,7 @@ into the {body} of the default.hbs template --}}
     {{#match @custom.header_style "!=" "Hidden"}}
         <div class="site-header-inner inner">
             {{#match @custom.navigation_layout "Logo on cover"}}
-                {{#if @site.logo}}
-                    <img class="site-logo" src="{{@site.logo}}" alt="{{meta_title}}">
-                {{else}}
-                    <h1 class="site-title">{{meta_title}}</h1>
-                {{/if}}
+                <h1 class="site-title">{{meta_title}}</h1>
             {{/match}}
             {{#if @site.description}}
                 <p class="site-description">{{@site.description}}</p>
@@ -40,6 +36,16 @@ into the {body} of the default.hbs template --}}
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
 <div class="inner posts">
+    {{#if @custom.home_about_me}}
+        <div class="ham-box"> 
+            <h2>About me</h2>
+            <div>{{@custom.home_about_me_title}}</div>
+            {{#if @site.logo}}
+                <img class="site-logo ham-logo" src="{{@site.logo}}" alt="{{meta_title}}">
+            {{/if}}
+            <p class="ham-description">{{@custom.home_about_me}}</p>
+        </div>
+    {{/if}}
 
     <div class="post-feed">
         {{#foreach posts}}

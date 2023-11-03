@@ -168,6 +168,14 @@
                 "type": "boolean",
                 "default": true,
                 "group": "post"
+            },
+            "home_about_me": {
+                "type": "text",
+                "default": ""
+            },
+            "home_about_me_title": {
+                "type": "text",
+                "default": ""
             }
         }
     },
