@@ -28,9 +28,9 @@
     <header id="gh-head" class="gh-head outer{{#match @custom.header_style "Hidden"}} is-header-hidden{{/match}}">
         <div class="gh-head-inner inner">
             <div class="gh-head-brand">
-                <a class="gh-head-logo{{#unless @site.logo}} no-image{{/unless}}" href="{{@site.url}}">
-                    {{#if @site.logo}}
-                        <img src="{{@site.logo}}" alt="{{@site.title}}">
+                <a class="gh-head-logo{{#unless @site.icon}} no-image{{/unless}}" href="{{@site.url}}">
+                    {{#if @site.icon}}
+                        <img src="{{@site.icon}}" alt="{{@site.title}}">
                     {{else}}
                         {{@site.title}}
                     {{/if}}
