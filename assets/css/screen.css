@@ -2052,8 +2052,8 @@ iframe.instagram-media + script + :not([id]) {
 .site-footer {
     position: relative;
     margin: max(12vmin, 64px) 0 0 0;
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     color: #fff;
     background: color-mod(var(--color-darkgrey) l(-5%));
 }
@@ -2068,6 +2068,17 @@ iframe.instagram-media + script + :not([id]) {
     grid-template-columns: auto 1fr auto;
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
+}
+
+.copyright-block {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.site-footer .nav-block {
+    display: flex;
+    align-items: center;
 }
 
 .site-footer .copyright a {
@@ -2087,9 +2098,8 @@ iframe.instagram-media + script + :not([id]) {
 
 .site-footer-nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
-    margin: 0 0 20px;
     padding: 0;
     list-style: none;
 }
