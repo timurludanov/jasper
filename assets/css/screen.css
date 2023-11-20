@@ -3046,6 +3046,20 @@ html.dark-mode .footer-cta-title {
     margin-right: 20%;
     margin-left: 20%;
 }
+
+.bm-acoffe {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bm-acoffe p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
 /*
 
 Hey! You reached the end.

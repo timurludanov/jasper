@@ -86,6 +86,24 @@ into the {body} tag of the default.hbs template --}}
         {{content}}
     </section>
 
+    {{#if @custom.bmc_title}}
+    <section class="gh-canvas bm-acoffe">
+        <p>{{@custom.bmc_title}}</p>
+        <script 
+            type="text/javascript" 
+            src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" 
+            data-name="bmc-button" 
+            data-slug="{{@custom.bmc_slug}}" 
+            data-color="{{@custom.bmc_color}}" 
+            data-emoji="☕"
+            data-font="{{@custom.bmc_font}}" 
+            data-text="{{@custom.bmc_text}}" 
+            data-outline-color="{{@custom.bmc_outline_color}}" 
+            data-font-color="{{@custom.bmc_font_color}}" 
+            data-coffee-color="{{@custom.bmc_coffee_color}}" ></script>
+    </section>
+    {{/if}}
+
     {{#if comments}}
         <section class="article-comments gh-canvas">
             {{comments}}
