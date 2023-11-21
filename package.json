@@ -208,6 +208,22 @@
       "bmc_coffee_color": {
         "type": "text",
         "default": "#ffffff"
+      },
+      "footer_privacy_policy_label": {
+        "type": "text",
+        "default": "Privacy Policy"
+      },
+      "footer_privacy_policy_url": {
+        "type": "text",
+        "default": ""
+      },
+      "footer_terms_conditions_label": {
+        "type": "text",
+        "default": "Terms and Conditions"
+      },
+      "footer_terms_conditions_url": {
+        "type": "text",
+        "default": ""
       }
     }
   },

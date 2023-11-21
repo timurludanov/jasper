@@ -2073,7 +2073,9 @@ iframe.instagram-media + script + :not([id]) {
 .copyright-block {
     color: rgba(255,255,255,0.7);
     font-size: 1.3rem;
-    margin-top: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .site-footer .nav-block {
@@ -3059,6 +3061,10 @@ html.dark-mode .footer-cta-title {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
+}
+
+.laws-nav-block {
+    margin-right: 160px;
 }
 /*
 
