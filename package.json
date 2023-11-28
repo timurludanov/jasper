@@ -173,10 +173,6 @@
         "type": "text",
         "default": ""
       },
-      "home_about_me_title": {
-        "type": "text",
-        "default": ""
-      },
       "bmc_title": {
         "type": "text",
         "default": ""
@@ -185,41 +181,9 @@
         "type": "text",
         "default": ""
       },
-      "bmc_color": {
-        "type": "text",
-        "default": "#FFDD00"
-      },
-      "bmc_font": {
-        "type": "text",
-        "default": "Cookie"
-      },
-      "bmc_text": {
-        "type": "text",
-        "default": "Buy me a coffee"
-      },
-      "bmc_outline_color": {
-        "type": "text",
-        "default": "#000000"
-      },
-      "bmc_font_color": {
-        "type": "text",
-        "default": "#000000"
-      },
-      "bmc_coffee_color": {
-        "type": "text",
-        "default": "#ffffff"
-      },
-      "footer_privacy_policy_label": {
-        "type": "text",
-        "default": "Privacy Policy"
-      },
       "footer_privacy_policy_url": {
         "type": "text",
         "default": ""
-      },
-      "footer_terms_conditions_label": {
-        "type": "text",
-        "default": "Terms and Conditions"
       },
       "footer_terms_conditions_url": {
         "type": "text",
