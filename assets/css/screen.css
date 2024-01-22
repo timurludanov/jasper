@@ -3065,6 +3065,14 @@ html.dark-mode .footer-cta-title {
 .laws-nav-block {
     margin-left: 5px;
 }
+
+.read-more-title {
+    text-transform: uppercase;
+    margin: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
 /*
 
 Hey! You reached the end.
