@@ -2075,7 +2075,6 @@ iframe.instagram-media + script + :not([id]) {
     font-size: 1.3rem;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
 }
 
 .site-footer .nav-block {
@@ -3064,7 +3063,7 @@ html.dark-mode .footer-cta-title {
 }
 
 .laws-nav-block {
-    margin-right: 80px;
+    margin-left: 5px;
 }
 /*
 
